@@ -1,35 +1,78 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-        <meta charset="utf-8"/>
-        <title>Brandon's Website</title>
-        <link rel="stylesheet" type="text/css" href="style.css">
-
+<meta charset="utf-8"/>
+<title>Brandon's Website</title>
+<link rel="stylesheet" type="text/css" href="style.css">
+<style>
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+  }
+  
+  .title {
+    color: blue;
+    font-size: 18px;
+  }
+  
+  button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color:rgba(128,0,128);
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+  }
+  
+  a {
+    text-decoration: none;
+    font-size: 22px;
+    color:black;
+  }
+  
+  button:hover, a:hover {
+    opacity: 0.7;
+  }
+  </style>
 </head>
 
 <header>
-                <h1>Brandon's Bio</h1>
-              </header>
-            
-              <main class="container">
-                <section id="main-bio">
-                  <section id="figure">
-                    <h2 id="Brandon Warren">Brandon Warren</h2>
-                    <img id="bio-image" src="https://media.licdn.com/dms/image/C5603AQGhJGKK1I0xSw/profile-displayphoto-shrink_200_200/0?e=1577318400&v=beta&t=K5e8Sc8e9TcybonpAsAseSNA1u7IEqnFt1zMYqIjCQs" alt="Brandon Warren">
-                  </section>
-                  <p>I am a college graduate from San Francisco State University with a Bachelor of Science in Business Administration with a concentration in Information Systems.  I am looking to grow within the tech industry, specifically with a focus in Network Security and Data Analytics.  I have experience operating HTML, Java, C++, SQL, NetBeans, GIMP, Visual Analyst and Mobile web development using SAP and SAPUI5. <a href="http://www.lipsum.com/">www.lipsum.com</a></p>
-                </section>
-            
-                <aside id="contact-info">
-                  <h2>Contact Info</h2>
-                  <ul>
-                    <li><strong>Email:</strong> <a href="">brandon91warren@gmail.com</a></li>
-                    <li><strong>Github:</strong> <a href="https://github.com/brandon91warren">My Github</a></li>
-                    <li><strong>Portfolio:</strong> <a href="#">coming soon</a></li>
-                  </ul>
-                </aside>
-              </main>
-            
-            </body>
-            
-            </html>
+<h1>Brandon's Bio</h1>
+</header>
+<div class="card">
+<img src="https://media.licdn.com/dms/image/C5603AQGhJGKK1I0xSw/profile-displayphoto-shrink_200_200/0?e=1577318400&v=beta&t=K5e8Sc8e9TcybonpAsAseSNA1u7IEqnFt1zMYqIjCQs" title="Brandon" alt="Brandon"style="width:50%">
+<h1 style="color: black;">Brandon Warren</h1>
+<strong class="title">Deal Desk Strategist, @linkedin</strong>
+<p>San Francisco State University, 2018</p>
+<p>UC Berkeley Extension, 2020</p>
+<div style="margin: 24px 0;"> 
+  <a href="https://www.linkedin.com/in/brandonwar/" target="_blank"><i class="fa fa-linkedin"></i></a> 
+  <a href="https://github.com/brandon91warren" target="_blank"><i class="fa fa-github"></i></a>   
+</div>
+<p><button>Contact</button></p>
+</div>
+<main class="container">
+<section id="main-bio">
+  <section id="figure">
+  </section>
+  <p>I am a college graduate from San Francisco State University with a Bachelor of Science in Business Administration with a concentration in Information Systems.  I am looking to grow within the tech industry, specifically with a focus in Network Security and Data Analytics.  I have experience operating HTML, Java, C++, SQL, NetBeans, GIMP, Visual Analyst and Mobile web development using SAP and SAPUI5. </p>
+</section>
+
+  <aside id="contact-info">
+  <th<h2>Contact Info</h2>
+  <ul>
+  <li><strong>Email:</strong> <a href="">brandon91warren@gmail.com</a></li>
+  <li><strong>Github:</strong> <a href="https://github.com/brandon91warren">My Github</a></li>
+  <li><strong>Portfolio:</strong> <a href="#">coming soon</a></li>
+  </ul>
+  </aside>
+  </main>
+  </body>
+  </html>
